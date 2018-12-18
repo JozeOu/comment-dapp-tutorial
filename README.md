@@ -68,5 +68,45 @@ truffle migrate
 
  - 接下来需要本地的 web 服务器提供服务的访问， Truffle Box `pet-shop` 里提供了一个 lite-server 服务可以直接使用。运行 `npm run dev` 即可启动 lite-server, 会自动打开浏览器显示 Dapp
 
+![](images/dappUI.png)
+
 
 ## 测试
+
+### 测试智能合约
+
+在 test 目录下新建并编写测试用例，`truffle test` 运行测试用例
+
+![](images/test-result.png)
+
+合约测试通过
+
+### 测试 Dapp
+
+输入评分，点击 comment 按钮，Dapp 便会发送交易到用户以太坊账户。
+
+![](images/after-comment1.png)
+
+此时账户中增加了一条待确认的交易
+
+![](images/after-comment2.png)
+
+
+用户可以确认交易或拒绝交易，确认交易后，该交易稍后会被打包进区块链，用户无法再对其进行篡改。
+
+![](images/confirmed.png)
+
+查看交易详情
+
+![](images/detail.png)
+
+## 改进和完善
+
+由于时间受限和 solidity 语言尚不熟悉，本项目的 Dapp 只实现了简单的逻辑和与智能合约的交互，下面给出一些改进和完善的 idea，之后再继续探索。
+
+
+## 参考资料
+
+truffle 框架文档：http://truffle.tryblockchain.org/
+solidity 文档：https://solidity-cn.readthedocs.io/zh/develop/
+【深入浅出区块链】博客：https://learnblockchain.cn/
