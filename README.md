@@ -107,6 +107,6 @@ truffle migrate
 
 ## 参考资料
 
-truffle 框架文档：http://truffle.tryblockchain.org/
-solidity 文档：https://solidity-cn.readthedocs.io/zh/develop/
-【深入浅出区块链】博客：https://learnblockchain.cn/
+ - truffle 框架文档：http://truffle.tryblockchain.org/
+ - solidity 文档：https://solidity-cn.readthedocs.io/zh/develop/
+ - 【深入浅出区块链】博客：https://learnblockchain.cn/
