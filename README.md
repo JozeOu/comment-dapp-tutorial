@@ -104,9 +104,14 @@ truffle migrate
 
 由于时间受限和 solidity 语言尚不熟悉，本项目的 Dapp 只实现了简单的逻辑和与智能合约的交互，下面给出一些改进和完善的 idea，之后再继续探索。
 
+ - 将评分和评论信息（字符串）添加到交易中
+ - 记录每个景点被点评的次数，计算历史评分平均值作为该景点目前的评分
+ - Dapp 能从区块链中查询和获取用户的评论信息并显示
+ - 每个用户能多次评论，但计算评分是只考虑最近一次的评分
+
 
 ## 参考资料
 
-truffle 框架文档：http://truffle.tryblockchain.org/
-solidity 文档：https://solidity-cn.readthedocs.io/zh/develop/
-【深入浅出区块链】博客：https://learnblockchain.cn/
+ - truffle 框架文档：http://truffle.tryblockchain.org/
+ - solidity 文档：https://solidity-cn.readthedocs.io/zh/develop/
+ - 【深入浅出区块链】博客：https://learnblockchain.cn/
